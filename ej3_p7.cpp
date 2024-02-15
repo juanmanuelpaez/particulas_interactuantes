@@ -24,6 +24,7 @@ const double h=0.005;
 //Longitud de la caja
 const double L=sqrt(N/0.3);
 
+//From Numerical Recipes, third edition
 struct Ranq1 { //Recommended generator for everyday use. The period is ~1.8E19, so it should not be used by an application that makes more than 1E12 calls.
 	unsigned long long int v;
 	Ranq1(unsigned long long int j) : v(4101842887655102017LL) {
